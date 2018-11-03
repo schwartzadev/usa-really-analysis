@@ -47,10 +47,7 @@ def get_rating(sentence):
 	# print('    ', + score)
 	return score
 
-
-
 # https://usareally.com/posts/get?limit=1832&needParam=1
-
 
 def read_saved_data():
 	titles = []
@@ -85,8 +82,11 @@ def plot_data(x, y, labels):
 
 
 
-def plot_date_pageviews():
-	with open("C:\\Users\\werdn\\Documents\\GitHub\\USA REALLY\\usa-really-analysis\\usa-wow-full-data--20181102-180155.json", "r") as data:
+def plot_date_pageviews(filename):
+	"""
+	Plots pageviews per article over time for USA Really's posts
+	"""
+	with open(filename, "r") as data:
 		data = data.read()
 		data = json.loads(data)
 		x = []
