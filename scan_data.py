@@ -10,6 +10,8 @@ import datetime
 import numpy as np
 from html.parser import HTMLParser
 
+plt.rcParams['font.sans-serif'] = ['Helvetica']
+
 
 NEWS_DATA_FILE = 'C:\\Users\\werdn\\Documents\\GitHub\\USA REALLY\\usa-really-analysis\\usa-wow-full-data--20181102-180155.json'
 
@@ -102,15 +104,13 @@ def sentiment_over_time(filename):
 	ax.set_ylim(-0.05, 0.05)
 	ax.axhline(y=0, dashes=(10,10), color="grey")
 	ax.plot_date(dates, y, alpha=0.4)
-	ax.set_xlim([datetime.date(2018, 5, 15), datetime.datetime.now()])
+	ax.set_xlim([datetime.date(2018, 5, 20), datetime.datetime.now()])
 
 	plt.title("Sentiment Over Time on USA Really Articles")
 	plt.ylabel("Article Title Sentiment Score")
 	plt.xlabel("Published Date")
 	plt.show()
 
-
-sentiment_over_time(NEWS_DATA_FILE)
 
 
 def sentiment_over_pageviews(filename):
@@ -161,11 +161,14 @@ def plot_date_pageviews(filename):
 			x.append(article["published_at"])
 			y.append(article["meta"]["post_views"])
 		fig, ax = plt.subplots()
-
 		dates = [datetime.datetime.strptime(date, "%Y-%m-%d %H:%M:%S") for date in x]
 		dates = matplotlib.dates.date2num(dates)
 		ax.plot_date(dates, y)
+		ax.set_yscale('log')
 		plt.title("USA Really Post Views Over Time")
 		plt.xlabel("Publishing Date")
 		plt.ylabel("Post Views")
 		plt.show()
+
+
+plot_date_pageviews(NEWS_DATA_FILE)
