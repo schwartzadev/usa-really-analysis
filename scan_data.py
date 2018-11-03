@@ -83,14 +83,15 @@ def get_rating(sentence, isList=False):
 
 def sentiment_over_time(filename):
 	"""
-	Plots sentiment (y axis) and time (x axis)
+	Plots sentiment (y axis) and time (x axis).
+	Uses an article's content to determine sentiment.
 	"""
 	y = []
 	x = []
 	with open(filename, "r") as data:
 		data = json.loads(data.read())
 		for article in data:
-			score = get_rating(article["title"])
+			score = get_rating(clean_content(article["content"]), True)
 			y.append(score)
 			x.append(article["published_at"])
 
@@ -98,11 +99,18 @@ def sentiment_over_time(filename):
 	dates = matplotlib.dates.date2num(dates)
 
 	fig, ax = plt.subplots()
-	ax.plot_date(dates, y, alpha=0.)
+	ax.set_ylim(-0.05, 0.05)
+	ax.axhline(y=0, dashes=(10,10), color="grey")
+	ax.plot_date(dates, y, alpha=0.4)
+	ax.set_xlim([datetime.date(2018, 5, 15), datetime.datetime.now()])
+
 	plt.title("Sentiment Over Time on USA Really Articles")
 	plt.ylabel("Article Title Sentiment Score")
 	plt.xlabel("Published Date")
 	plt.show()
+
+
+sentiment_over_time(NEWS_DATA_FILE)
 
 
 def sentiment_over_pageviews(filename):
@@ -138,9 +146,6 @@ def sentiment_over_pageviews(filename):
 	plt.xlabel("Pageview Count (logarithmic scale)")
 	plt.ylabel("Article Title Sentiment Score")
 	plt.show()
-
-
-sentiment_over_pageviews(NEWS_DATA_FILE)
 
 
 def plot_date_pageviews(filename):
