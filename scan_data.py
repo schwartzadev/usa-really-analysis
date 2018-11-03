@@ -171,4 +171,15 @@ def plot_date_pageviews(filename):
 		plt.show()
 
 
-plot_date_pageviews(NEWS_DATA_FILE)
+def filter_data():
+	"""
+	Filter the dataset based on rating or views values
+	"""
+	with open(NEWS_DATA_FILE, "r") as data:
+		data = data.read()
+		data = json.loads(data)
+		for a in data:
+			rating = get_rating(clean_content(a["content"]), True)
+			views = a["meta"]["post_views"]
+			if views > 6000 and views < 10000 and rating < -0.02:
+				print(a["title"], rating, views)
