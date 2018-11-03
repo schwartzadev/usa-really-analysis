@@ -5,6 +5,8 @@ import re
 
 from adjustText import adjust_text
 import matplotlib.pyplot as plt
+import matplotlib
+from datetime import datetime
 
 
 def sentence_list(sentence):
@@ -84,10 +86,20 @@ def plot_data(x, y, labels):
 
 
 def plot_date_pageviews():
-	with open("C:\\Users\\werdn\\Documents\\GitHub\\USA REALLY\\usa-really-analysis\\posts-data.json", "r") as data:
+	with open("C:\\Users\\werdn\\Documents\\GitHub\\USA REALLY\\usa-really-analysis\\usa-wow-full-data--20181102-180155.json", "r") as data:
 		data = data.read()
 		data = json.loads(data)
-		print(len(data))
+		x = []
+		y = []
+		for article in data:
+			x.append(article["published_at"])
+			y.append(article["meta"]["post_views"])
+		fig, ax = plt.subplots()
 
-
-read_saved_data()
+		dates = [datetime.strptime(date, "%Y-%m-%d %H:%M:%S") for date in x]
+		dates = matplotlib.dates.date2num(dates)
+		ax.plot_date(dates, y)
+		plt.title("USA Really Post Views Over Time")
+		plt.xlabel("Publishing Date")
+		plt.ylabel("Post Views")
+		plt.show()
