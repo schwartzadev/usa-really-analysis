@@ -1,6 +1,12 @@
 # Data Analysis on *USA Really*
 Data analysis using AI to identify information about *[USA Really](https://usareally.com/)*, a [Russian state-operated](https://www.mcclatchydc.com/news/nation-world/national/national-security/article212299529.html) [news site](https://www.nbcnews.com/news/us-news/man-running-russia-s-newest-propaganda-effort-u-s-or-n883736) marketed towards Americans.
 
+## Results
+
+<img src="charts/sentiment-over-pageviews-twitter-model.png" />
+
+#### ...more coming soon!
+
 ## Methodology
 
 ### Classification Model
