@@ -9,6 +9,7 @@ import matplotlib
 import datetime
 import numpy as np
 
+NEWS_DATA_FILE = 'C:\\Users\\werdn\\Documents\\GitHub\\USA REALLY\\usa-really-analysis\\usa-wow-full-data--20181102-180155.json'
 
 def sentence_list(sentence):
 	return re.sub("[^\w]", " ",  sentence).split()	
@@ -50,6 +51,9 @@ def get_rating(sentence):
 
 
 def sentiment_over_time(filename):
+	"""
+	Plots sentiment (y axis) and time (x axis)
+	"""
 	y = []
 	x = []
 	with open(filename, "r") as data:
@@ -71,6 +75,9 @@ def sentiment_over_time(filename):
 
 
 def sentiment_over_pageviews(filename):
+	"""
+	Plots sentiment (y axis) and number of article pageviews (x axis)
+	"""
 	labels = []
 	y = []
 	x = []
