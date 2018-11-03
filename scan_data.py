@@ -107,7 +107,7 @@ def sentiment_over_time(filename):
 	ax.set_xlim([datetime.date(2018, 5, 20), datetime.datetime.now()])
 
 	plt.title("Sentiment Over Time on USA Really Articles")
-	plt.ylabel("Article Title Sentiment Score")
+	plt.ylabel("Article Content Sentiment Score")
 	plt.xlabel("Published Date")
 	plt.show()
 
@@ -144,7 +144,7 @@ def sentiment_over_pageviews(filename):
 	# adjust_text(texts, arrowprops=dict(arrowstyle='->', color='red'))   # super slow
 	plt.title("Pageviews vs. Sentiment on USA Really Articles")
 	plt.xlabel("Pageview Count (logarithmic scale)")
-	plt.ylabel("Article Title Sentiment Score")
+	plt.ylabel("Article Content Sentiment Score")
 	plt.show()
 
 

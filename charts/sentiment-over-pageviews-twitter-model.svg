@@ -18,8 +18,8 @@
    inkscape:version="0.91 r13725"
    sodipodi:docname="sentiment-over-pageviews-twitter-model.svg"
    inkscape:export-filename="C:\Users\werdn\Documents\GitHub\USA REALLY\usa-really-analysis\charts\sentiment-over-pageviews-twitter-model.png"
-   inkscape:export-xdpi="173.43633"
-   inkscape:export-ydpi="173.43633">
+   inkscape:export-xdpi="299.03"
+   inkscape:export-ydpi="299.03">
   <metadata
      id="metadata8047">
     <rdf:RDF>
@@ -28,7 +28,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -45,9 +45,9 @@
      inkscape:window-height="811"
      id="namedview8045"
      showgrid="false"
-     inkscape:zoom="0.66922207"
-     inkscape:cx="618.10324"
-     inkscape:cy="375.2958"
+     inkscape:zoom="0.70018167"
+     inkscape:cx="406.17277"
+     inkscape:cy="390.84712"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -221,6 +221,123 @@
     <g
        id="axes_1"
        style="stroke-linecap:butt;stroke-linejoin:round">
+      <g
+         transform="matrix(0,-0.85726385,0.85726377,0,-134.07471,70.617092)"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="flowRoot8352">
+        <path
+           d="m -363.72672,261.98912 1.2425,3.6575 1.855,0 -4.55,-12.565 -1.925,0 -4.725,12.565 1.75,0 1.3125,-3.6575 5.04,0 z m -4.515,-1.505 2.0125,-5.53 0.035,0 1.855,5.53 -3.9025,0 z"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:17.5px;font-family:Helvetica;-inkscape-font-specification:'Helvetica Medium';stroke-linecap:butt;stroke-linejoin:round"
+           id="path8388" />
+        <path
+           d="m -357.49727,260.32662 c 0,-1.33 0.91,-2.45 2.345,-2.45 l 0.5775,0 0,-1.5925 c -0.1225,-0.035 -0.21,-0.0525 -0.4025,-0.0525 -1.155,0 -1.96,0.7175 -2.5725,1.785 l -0.035,0 0,-1.5225 -1.4525,0 0,9.1525 1.54,0 0,-5.32 z"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:17.5px;font-family:Helvetica;-inkscape-font-specification:'Helvetica Medium';stroke-linecap:butt;stroke-linejoin:round"
+           id="path8390" />
+        <path
+           d="m -349.35895,257.77162 0,-1.2775 -1.47,0 0,-2.555 -1.54,0 0,2.555 -1.2425,0 0,1.2775 1.2425,0 0,6.0375 c 0,1.1025 0.3325,1.96 1.855,1.96 0.1575,0 0.595,-0.07 1.155,-0.1225 l 0,-1.2075 -0.5425,0 c -0.315,0 -0.9275,0 -0.9275,-0.7175 l 0,-5.95 1.47,0 z"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:17.5px;font-family:Helvetica;-inkscape-font-specification:'Helvetica Medium';stroke-linecap:butt;stroke-linejoin:round"
+           id="path8392" />
+        <path
+           d="m -346.29043,256.49412 -1.54,0 0,9.1525 1.54,0 0,-9.1525 z m 0,-1.6625 0,-1.75 -1.54,0 0,1.75 1.54,0 z"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:17.5px;font-family:Helvetica;-inkscape-font-specification:'Helvetica Medium';stroke-linecap:butt;stroke-linejoin:round"
+           id="path8394" />
+        <path
+           d="m -336.75895,259.57412 c -0.1225,-1.5925 -1.0325,-3.3425 -3.43,-3.3425 -3.0275,0 -4.3925,2.2575 -4.3925,5.0925 0,2.6425 1.5225,4.585 4.095,4.585 2.6775,0 3.57,-2.0475 3.7275,-3.5 l -1.4875,0 c -0.2625,1.4 -1.155,2.17 -2.1875,2.17 -2.1175,0 -2.5025,-1.9425 -2.5025,-3.5175 0,-1.6275 0.6125,-3.4475 2.52,-3.4475 1.295,0 1.9775,0.735 2.17,1.96 l 1.4875,0 z"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:17.5px;font-family:Helvetica;-inkscape-font-specification:'Helvetica Medium';stroke-linecap:butt;stroke-linejoin:round"
+           id="path8396" />
+        <path
+           d="m -333.64395,253.08162 -1.54,0 0,12.565 1.54,0 0,-12.565 z"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:17.5px;font-family:Helvetica;-inkscape-font-specification:'Helvetica Medium';stroke-linecap:butt;stroke-linejoin:round"
+           id="path8398" />
+        <path
+           d="m -325.09246,262.77662 c -0.0525,0.6825 -0.91,1.8025 -2.3625,1.8025 -1.7675,0 -2.66,-1.1025 -2.66,-3.01 l 6.685,0 c 0,-3.2375 -1.295,-5.3375 -3.9375,-5.3375 -3.0275,0 -4.3925,2.2575 -4.3925,5.0925 0,2.6425 1.5225,4.585 4.095,4.585 1.47,0 2.065,-0.35 2.485,-0.63 1.155,-0.77 1.575,-2.065 1.6275,-2.5025 l -1.54,0 z m -5.0225,-2.4325 c 0,-1.4175 1.12,-2.73 2.5375,-2.73 1.8725,0 2.4675,1.3125 2.555,2.73 l -5.0925,0 z"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:17.5px;font-family:Helvetica;-inkscape-font-specification:'Helvetica Medium';stroke-linecap:butt;stroke-linejoin:round"
+           id="path8400" />
+        <path
+           d="m -306.07023,256.86162 c -0.245,-2.1 -1.925,-4.1125 -5.1625,-4.1125 -3.6575,0 -5.8625,2.6775 -5.8625,6.545 0,4.83 2.8,6.685 5.6525,6.685 0.945,0 4.795,-0.21 5.495,-4.9525 l -1.645,0 c -0.5775,2.9225 -2.485,3.4475 -3.5875,3.4475 -3.115,0 -4.165,-2.275 -4.165,-5.2325 0,-3.3075 1.8375,-4.9875 4.1125,-4.9875 1.2075,0 3.045,0.4025 3.5175,2.6075 l 1.645,0 z"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:17.5px;font-family:Helvetica;-inkscape-font-specification:'Helvetica Medium';stroke-linecap:butt;stroke-linejoin:round"
+           id="path8402" />
+        <path
+           d="m -304.60625,261.06162 c 0,2.3625 1.33,4.83 4.2525,4.83 2.9225,0 4.2525,-2.4675 4.2525,-4.83 0,-2.3625 -1.33,-4.83 -4.2525,-4.83 -2.9225,0 -4.2525,2.4675 -4.2525,4.83 z m 1.5925,0 c 0,-1.225 0.455,-3.5 2.66,-3.5 2.205,0 2.66,2.275 2.66,3.5 0,1.225 -0.455,3.5 -2.66,3.5 -2.205,0 -2.66,-2.275 -2.66,-3.5 z"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:17.5px;font-family:Helvetica;-inkscape-font-specification:'Helvetica Medium';stroke-linecap:butt;stroke-linejoin:round"
+           id="path8404" />
+        <path
+           d="m -286.88504,259.41662 c 0,-2.6075 -1.785,-3.185 -3.2025,-3.185 -1.575,0 -2.4325,1.0675 -2.765,1.5575 l -0.035,0 0,-1.295 -1.4525,0 0,9.1525 1.54,0 0,-4.9875 c 0,-2.485 1.54,-3.045 2.415,-3.045 1.505,0 1.96,0.805 1.96,2.3975 l 0,5.635 1.54,0 0,-6.23 z"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:17.5px;font-family:Helvetica;-inkscape-font-specification:'Helvetica Medium';stroke-linecap:butt;stroke-linejoin:round"
+           id="path8406" />
+        <path
+           d="m -281.23883,257.77162 0,-1.2775 -1.47,0 0,-2.555 -1.54,0 0,2.555 -1.2425,0 0,1.2775 1.2425,0 0,6.0375 c 0,1.1025 0.3325,1.96 1.855,1.96 0.1575,0 0.595,-0.07 1.155,-0.1225 l 0,-1.2075 -0.5425,0 c -0.315,0 -0.9275,0 -0.9275,-0.7175 l 0,-5.95 1.47,0 z"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:17.5px;font-family:Helvetica;-inkscape-font-specification:'Helvetica Medium';stroke-linecap:butt;stroke-linejoin:round"
+           id="path8408" />
+        <path
+           d="m -273.51531,262.77662 c -0.0525,0.6825 -0.91,1.8025 -2.3625,1.8025 -1.7675,0 -2.66,-1.1025 -2.66,-3.01 l 6.685,0 c 0,-3.2375 -1.295,-5.3375 -3.9375,-5.3375 -3.0275,0 -4.3925,2.2575 -4.3925,5.0925 0,2.6425 1.5225,4.585 4.095,4.585 1.47,0 2.065,-0.35 2.485,-0.63 1.155,-0.77 1.575,-2.065 1.6275,-2.5025 l -1.54,0 z m -5.0225,-2.4325 c 0,-1.4175 1.12,-2.73 2.5375,-2.73 1.8725,0 2.4675,1.3125 2.555,2.73 l -5.0925,0 z"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:17.5px;font-family:Helvetica;-inkscape-font-specification:'Helvetica Medium';stroke-linecap:butt;stroke-linejoin:round"
+           id="path8410" />
+        <path
+           d="m -262.5491,259.41662 c 0,-2.6075 -1.785,-3.185 -3.2025,-3.185 -1.575,0 -2.4325,1.0675 -2.765,1.5575 l -0.035,0 0,-1.295 -1.4525,0 0,9.1525 1.54,0 0,-4.9875 c 0,-2.485 1.54,-3.045 2.415,-3.045 1.505,0 1.96,0.805 1.96,2.3975 l 0,5.635 1.54,0 0,-6.23 z"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:17.5px;font-family:Helvetica;-inkscape-font-specification:'Helvetica Medium';stroke-linecap:butt;stroke-linejoin:round"
+           id="path8412" />
+        <path
+           d="m -256.90289,257.77162 0,-1.2775 -1.47,0 0,-2.555 -1.54,0 0,2.555 -1.2425,0 0,1.2775 1.2425,0 0,6.0375 c 0,1.1025 0.3325,1.96 1.855,1.96 0.1575,0 0.595,-0.07 1.155,-0.1225 l 0,-1.2075 -0.5425,0 c -0.315,0 -0.9275,0 -0.9275,-0.7175 l 0,-5.95 1.47,0 z"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:17.5px;font-family:Helvetica;-inkscape-font-specification:'Helvetica Medium';stroke-linecap:butt;stroke-linejoin:round"
+           id="path8414" />
+        <path
+           d="m -241.19336,256.75662 c -0.07,-1.3825 -0.5075,-4.0075 -4.9,-4.0075 -3.045,0 -4.3225,1.925 -4.3225,3.885 0,2.1875 1.855,2.765 2.6775,2.9575 l 2.5725,0.595 c 2.065,0.49 2.6775,0.91 2.6775,2.2225 0,1.8025 -2.065,2.1175 -3.29,2.1175 -1.61,0 -3.465,-0.665 -3.465,-2.94 l -1.5925,0 c 0,1.1725 0.21,2.2225 1.2775,3.185 0.56,0.5075 1.47,1.2075 3.7975,1.2075 2.1525,0 4.9175,-0.8225 4.9175,-3.7975 0,-1.995 -1.225,-2.975 -2.8525,-3.36 l -3.5875,-0.8225 c -0.735,-0.175 -1.4875,-0.525 -1.4875,-1.5925 0,-1.9075 1.8025,-2.205 2.87,-2.205 1.4175,0 3.0275,0.6125 3.115,2.555 l 1.5925,0 z"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:17.5px;font-family:Helvetica;-inkscape-font-specification:'Helvetica Medium';stroke-linecap:butt;stroke-linejoin:round"
+           id="path8416" />
+        <path
+           d="m -232.63641,262.77662 c -0.0525,0.6825 -0.91,1.8025 -2.3625,1.8025 -1.7675,0 -2.66,-1.1025 -2.66,-3.01 l 6.685,0 c 0,-3.2375 -1.295,-5.3375 -3.9375,-5.3375 -3.0275,0 -4.3925,2.2575 -4.3925,5.0925 0,2.6425 1.5225,4.585 4.095,4.585 1.47,0 2.065,-0.35 2.485,-0.63 1.155,-0.77 1.575,-2.065 1.6275,-2.5025 l -1.54,0 z m -5.0225,-2.4325 c 0,-1.4175 1.12,-2.73 2.5375,-2.73 1.8725,0 2.4675,1.3125 2.555,2.73 l -5.0925,0 z"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:17.5px;font-family:Helvetica;-inkscape-font-specification:'Helvetica Medium';stroke-linecap:butt;stroke-linejoin:round"
+           id="path8418" />
+        <path
+           d="m -221.6702,259.41662 c 0,-2.6075 -1.785,-3.185 -3.2025,-3.185 -1.575,0 -2.4325,1.0675 -2.765,1.5575 l -0.035,0 0,-1.295 -1.4525,0 0,9.1525 1.54,0 0,-4.9875 c 0,-2.485 1.54,-3.045 2.415,-3.045 1.505,0 1.96,0.805 1.96,2.3975 l 0,5.635 1.54,0 0,-6.23 z"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:17.5px;font-family:Helvetica;-inkscape-font-specification:'Helvetica Medium';stroke-linecap:butt;stroke-linejoin:round"
+           id="path8420" />
+        <path
+           d="m -216.02398,257.77162 0,-1.2775 -1.47,0 0,-2.555 -1.54,0 0,2.555 -1.2425,0 0,1.2775 1.2425,0 0,6.0375 c 0,1.1025 0.3325,1.96 1.855,1.96 0.1575,0 0.595,-0.07 1.155,-0.1225 l 0,-1.2075 -0.5425,0 c -0.315,0 -0.9275,0 -0.9275,-0.7175 l 0,-5.95 1.47,0 z"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:17.5px;font-family:Helvetica;-inkscape-font-specification:'Helvetica Medium';stroke-linecap:butt;stroke-linejoin:round"
+           id="path8422" />
+        <path
+           d="m -212.95547,256.49412 -1.54,0 0,9.1525 1.54,0 0,-9.1525 z m 0,-1.6625 0,-1.75 -1.54,0 0,1.75 1.54,0 z"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:17.5px;font-family:Helvetica;-inkscape-font-specification:'Helvetica Medium';stroke-linecap:butt;stroke-linejoin:round"
+           id="path8424" />
+        <path
+           d="m -210.63398,265.64662 1.54,0 0,-4.9875 c 0,-2.485 1.54,-3.045 2.415,-3.045 1.1375,0 1.435,0.9275 1.435,1.6975 l 0,6.335 1.54,0 0,-5.5825 c 0,-1.225 0.8575,-2.45 2.1525,-2.45 1.3125,0 1.6975,0.8575 1.6975,2.1175 l 0,5.915 1.54,0 0,-6.335 c 0,-2.5725 -1.855,-3.08 -2.835,-3.08 -1.4175,0 -2.03,0.63 -2.8,1.4875 -0.2625,-0.49 -0.7875,-1.4875 -2.4325,-1.4875 -1.645,0 -2.4325,1.0675 -2.765,1.5575 l -0.035,0 0,-1.295 -1.4525,0 0,9.1525 z"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:17.5px;font-family:Helvetica;-inkscape-font-specification:'Helvetica Medium';stroke-linecap:butt;stroke-linejoin:round"
+           id="path8426" />
+        <path
+           d="m -189.80926,262.77662 c -0.0525,0.6825 -0.91,1.8025 -2.3625,1.8025 -1.7675,0 -2.66,-1.1025 -2.66,-3.01 l 6.685,0 c 0,-3.2375 -1.295,-5.3375 -3.9375,-5.3375 -3.0275,0 -4.3925,2.2575 -4.3925,5.0925 0,2.6425 1.5225,4.585 4.095,4.585 1.47,0 2.065,-0.35 2.485,-0.63 1.155,-0.77 1.575,-2.065 1.6275,-2.5025 l -1.54,0 z m -5.0225,-2.4325 c 0,-1.4175 1.12,-2.73 2.5375,-2.73 1.8725,0 2.4675,1.3125 2.555,2.73 l -5.0925,0 z"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:17.5px;font-family:Helvetica;-inkscape-font-specification:'Helvetica Medium';stroke-linecap:butt;stroke-linejoin:round"
+           id="path8428" />
+        <path
+           d="m -178.84305,259.41662 c 0,-2.6075 -1.785,-3.185 -3.2025,-3.185 -1.575,0 -2.4325,1.0675 -2.765,1.5575 l -0.035,0 0,-1.295 -1.4525,0 0,9.1525 1.54,0 0,-4.9875 c 0,-2.485 1.54,-3.045 2.415,-3.045 1.505,0 1.96,0.805 1.96,2.3975 l 0,5.635 1.54,0 0,-6.23 z"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:17.5px;font-family:Helvetica;-inkscape-font-specification:'Helvetica Medium';stroke-linecap:butt;stroke-linejoin:round"
+           id="path8430" />
+        <path
+           d="m -173.19684,257.77162 0,-1.2775 -1.47,0 0,-2.555 -1.54,0 0,2.555 -1.2425,0 0,1.2775 1.2425,0 0,6.0375 c 0,1.1025 0.3325,1.96 1.855,1.96 0.1575,0 0.595,-0.07 1.155,-0.1225 l 0,-1.2075 -0.5425,0 c -0.315,0 -0.9275,0 -0.9275,-0.7175 l 0,-5.95 1.47,0 z"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:17.5px;font-family:Helvetica;-inkscape-font-specification:'Helvetica Medium';stroke-linecap:butt;stroke-linejoin:round"
+           id="path8432" />
+        <path
+           d="m -157.4873,256.75662 c -0.07,-1.3825 -0.5075,-4.0075 -4.9,-4.0075 -3.045,0 -4.3225,1.925 -4.3225,3.885 0,2.1875 1.855,2.765 2.6775,2.9575 l 2.5725,0.595 c 2.065,0.49 2.6775,0.91 2.6775,2.2225 0,1.8025 -2.065,2.1175 -3.29,2.1175 -1.61,0 -3.465,-0.665 -3.465,-2.94 l -1.5925,0 c 0,1.1725 0.21,2.2225 1.2775,3.185 0.56,0.5075 1.47,1.2075 3.7975,1.2075 2.1525,0 4.9175,-0.8225 4.9175,-3.7975 0,-1.995 -1.225,-2.975 -2.8525,-3.36 l -3.5875,-0.8225 c -0.735,-0.175 -1.4875,-0.525 -1.4875,-1.5925 0,-1.9075 1.8025,-2.205 2.87,-2.205 1.4175,0 3.0275,0.6125 3.115,2.555 l 1.5925,0 z"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:17.5px;font-family:Helvetica;-inkscape-font-specification:'Helvetica Medium';stroke-linecap:butt;stroke-linejoin:round"
+           id="path8434" />
+        <path
+           d="m -147.95035,259.57412 c -0.1225,-1.5925 -1.0325,-3.3425 -3.43,-3.3425 -3.0275,0 -4.3925,2.2575 -4.3925,5.0925 0,2.6425 1.5225,4.585 4.095,4.585 2.6775,0 3.57,-2.0475 3.7275,-3.5 l -1.4875,0 c -0.2625,1.4 -1.155,2.17 -2.1875,2.17 -2.1175,0 -2.5025,-1.9425 -2.5025,-3.5175 0,-1.6275 0.6125,-3.4475 2.52,-3.4475 1.295,0 1.9775,0.735 2.17,1.96 l 1.4875,0 z"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:17.5px;font-family:Helvetica;-inkscape-font-specification:'Helvetica Medium';stroke-linecap:butt;stroke-linejoin:round"
+           id="path8436" />
+        <path
+           d="m -146.93535,261.06162 c 0,2.3625 1.33,4.83 4.2525,4.83 2.9225,0 4.2525,-2.4675 4.2525,-4.83 0,-2.3625 -1.33,-4.83 -4.2525,-4.83 -2.9225,0 -4.2525,2.4675 -4.2525,4.83 z m 1.5925,0 c 0,-1.225 0.455,-3.5 2.66,-3.5 2.205,0 2.66,2.275 2.66,3.5 0,1.225 -0.455,3.5 -2.66,3.5 -2.205,0 -2.66,-2.275 -2.66,-3.5 z"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:17.5px;font-family:Helvetica;-inkscape-font-specification:'Helvetica Medium';stroke-linecap:butt;stroke-linejoin:round"
+           id="path8438" />
+        <path
+           d="m -134.91914,260.32662 c 0,-1.33 0.91,-2.45 2.345,-2.45 l 0.5775,0 0,-1.5925 c -0.1225,-0.035 -0.21,-0.0525 -0.4025,-0.0525 -1.155,0 -1.96,0.7175 -2.5725,1.785 l -0.035,0 0,-1.5225 -1.4525,0 0,9.1525 1.54,0 0,-5.32 z"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:17.5px;font-family:Helvetica;-inkscape-font-specification:'Helvetica Medium';stroke-linecap:butt;stroke-linejoin:round"
+           id="path8440" />
+        <path
+           d="m -124.59441,262.77662 c -0.0525,0.6825 -0.91,1.8025 -2.3625,1.8025 -1.7675,0 -2.66,-1.1025 -2.66,-3.01 l 6.685,0 c 0,-3.2375 -1.295,-5.3375 -3.9375,-5.3375 -3.0275,0 -4.3925,2.2575 -4.3925,5.0925 0,2.6425 1.5225,4.585 4.095,4.585 1.47,0 2.065,-0.35 2.485,-0.63 1.155,-0.77 1.575,-2.065 1.6275,-2.5025 l -1.54,0 z m -5.0225,-2.4325 c 0,-1.4175 1.12,-2.73 2.5375,-2.73 1.8725,0 2.4675,1.3125 2.555,2.73 l -5.0925,0 z"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:17.5px;font-family:Helvetica;-inkscape-font-specification:'Helvetica Medium';stroke-linecap:butt;stroke-linejoin:round"
+           id="path8442" />
+      </g>
       <g
          id="patch_2"
          style="stroke-linecap:butt;stroke-linejoin:round">
@@ -25886,267 +26003,6 @@
             </g>
           </g>
         </g>
-        <g
-           id="text_12"
-           transform="matrix(1.4999727,0,0,1.4999727,-55.864597,-141.44121)"
-           style="stroke-linecap:butt;stroke-linejoin:round">
-          <!-- Article Title Sentiment Score -->
-          <defs
-             id="defs7860">
-            <path
-               d="M 47.703125,20.90625 54.796875,0 65.40625,0 l -26,71.796875 -11,0 L 1.40625,0 l 10,0 7.5,20.90625 z M 21.90625,29.5 l 11.5,31.59375 0.1875,0 L 44.203125,29.5 Z"
-               id="Helvetica-41"
-               inkscape:connector-curvature="0"
-               style="stroke-linecap:butt;stroke-linejoin:round" />
-            <path
-               d="m 1.40625,63.203125 24.296875,0 0,-63.203125 9.703125,0 0,63.203125 24.296875,0 0,8.59375 -58.296875,0 z"
-               id="Helvetica-54"
-               inkscape:connector-curvature="0"
-               style="stroke-linecap:butt;stroke-linejoin:round" />
-            <path
-               d="m 60,50.796875 c -0.40625,7.90625 -2.90625,22.90625 -28,22.90625 -17.40625,0 -24.703125,-11 -24.703125,-22.203125 0,-12.5 10.609375,-15.796875 15.296875,-16.90625 L 37.296875,31.203125 C 49.09375,28.40625 52.59375,26 52.59375,18.5 52.59375,8.203125 40.796875,6.40625 33.796875,6.40625 24.59375,6.40625 14,10.203125 14,23.203125 l -9.09375,0 C 4.90625,16.5 6.09375,10.5 12.203125,5 15.40625,2.09375 20.59375,-1.90625 33.90625,-1.90625 46.203125,-1.90625 62,2.796875 62,19.796875 62,31.203125 55,36.796875 45.703125,39 l -20.5,4.703125 c -4.203125,1 -8.5,3 -8.5,9.09375 0,10.90625 10.296875,12.609375 16.390625,12.609375 8.109375,0 17.3125,-3.5 17.8125,-14.609375 z"
-               id="Helvetica-53"
-               inkscape:connector-curvature="0"
-               style="stroke-linecap:butt;stroke-linejoin:round" />
-          </defs>
-          <g
-             transform="matrix(0,-0.1,-0.1,0,99.87125,345.58907)"
-             id="g7865"
-             style="stroke-linecap:butt;stroke-linejoin:round">
-            <use
-               xlink:href="#Helvetica-41"
-               id="use7867"
-               style="stroke-linecap:butt;stroke-linejoin:round"
-               x="0"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               x="66.699997"
-               xlink:href="#Helvetica-72"
-               id="use7869"
-               style="stroke-linecap:butt;stroke-linejoin:round"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               x="99.999985"
-               xlink:href="#Helvetica-74"
-               id="use7871"
-               style="stroke-linecap:butt;stroke-linejoin:round"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               x="127.79997"
-               xlink:href="#Helvetica-69"
-               id="use7873"
-               style="stroke-linecap:butt;stroke-linejoin:round"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               x="149.99997"
-               xlink:href="#Helvetica-63"
-               id="use7875"
-               style="stroke-linecap:butt;stroke-linejoin:round"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               x="199.99995"
-               xlink:href="#Helvetica-6c"
-               id="use7877"
-               style="stroke-linecap:butt;stroke-linejoin:round"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               x="222.19995"
-               xlink:href="#Helvetica-65"
-               id="use7879"
-               style="stroke-linecap:butt;stroke-linejoin:round"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               x="277.79993"
-               xlink:href="#Helvetica-20"
-               id="use7881"
-               style="stroke-linecap:butt;stroke-linejoin:round"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               x="305.59995"
-               xlink:href="#Helvetica-54"
-               id="use7883"
-               style="stroke-linecap:butt;stroke-linejoin:round"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               x="366.69992"
-               xlink:href="#Helvetica-69"
-               id="use7885"
-               style="stroke-linecap:butt;stroke-linejoin:round"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               x="388.89993"
-               xlink:href="#Helvetica-74"
-               id="use7887"
-               style="stroke-linecap:butt;stroke-linejoin:round"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               x="416.69989"
-               xlink:href="#Helvetica-6c"
-               id="use7889"
-               style="stroke-linecap:butt;stroke-linejoin:round"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               x="438.8999"
-               xlink:href="#Helvetica-65"
-               id="use7891"
-               style="stroke-linecap:butt;stroke-linejoin:round"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               x="494.49988"
-               xlink:href="#Helvetica-20"
-               id="use7893"
-               style="stroke-linecap:butt;stroke-linejoin:round"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               x="522.29987"
-               xlink:href="#Helvetica-53"
-               id="use7895"
-               style="stroke-linecap:butt;stroke-linejoin:round"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               x="588.99988"
-               xlink:href="#Helvetica-65"
-               id="use7897"
-               style="stroke-linecap:butt;stroke-linejoin:round"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               x="644.59985"
-               xlink:href="#Helvetica-6e"
-               id="use7899"
-               style="stroke-linecap:butt;stroke-linejoin:round"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               x="700.19989"
-               xlink:href="#Helvetica-74"
-               id="use7901"
-               style="stroke-linecap:butt;stroke-linejoin:round"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               x="727.99982"
-               xlink:href="#Helvetica-69"
-               id="use7903"
-               style="stroke-linecap:butt;stroke-linejoin:round"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               x="750.19983"
-               xlink:href="#Helvetica-6d"
-               id="use7905"
-               style="stroke-linecap:butt;stroke-linejoin:round"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               x="833.49982"
-               xlink:href="#Helvetica-65"
-               id="use7907"
-               style="stroke-linecap:butt;stroke-linejoin:round"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               x="889.09985"
-               xlink:href="#Helvetica-6e"
-               id="use7909"
-               style="stroke-linecap:butt;stroke-linejoin:round"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               x="944.69983"
-               xlink:href="#Helvetica-74"
-               id="use7911"
-               style="stroke-linecap:butt;stroke-linejoin:round"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               x="972.49982"
-               xlink:href="#Helvetica-20"
-               id="use7913"
-               style="stroke-linecap:butt;stroke-linejoin:round"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               x="1000.2998"
-               xlink:href="#Helvetica-53"
-               id="use7915"
-               style="stroke-linecap:butt;stroke-linejoin:round"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               x="1066.9998"
-               xlink:href="#Helvetica-63"
-               id="use7917"
-               style="stroke-linecap:butt;stroke-linejoin:round"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               x="1116.9998"
-               xlink:href="#Helvetica-6f"
-               id="use7919"
-               style="stroke-linecap:butt;stroke-linejoin:round"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               x="1172.5997"
-               xlink:href="#Helvetica-72"
-               id="use7921"
-               style="stroke-linecap:butt;stroke-linejoin:round"
-               y="0"
-               width="100%"
-               height="100%" />
-            <use
-               x="1205.8998"
-               xlink:href="#Helvetica-65"
-               id="use7923"
-               style="stroke-linecap:butt;stroke-linejoin:round"
-               y="0"
-               width="100%"
-               height="100%" />
-          </g>
-        </g>
       </g>
       <g
          id="line2d_44"
@@ -26333,14 +26189,11 @@
              y="0"
              width="100%"
              height="100%" />
-          <use
-             x="666.89984"
-             xlink:href="#Helvetica-53"
-             id="use7976"
+          <path
              style="stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
-             y="0"
-             width="100%"
-             height="100%" />
+             inkscape:connector-curvature="0"
+             id="use7976"
+             d="m 726.89984,50.796875 c -0.40625,7.90625 -2.90625,22.90625 -28,22.90625 -17.40625,0 -24.70312,-11 -24.70312,-22.203125 0,-12.5 10.60937,-15.796875 15.29687,-16.90625 l 14.70313,-3.390625 C 715.99359,28.40625 719.49359,26 719.49359,18.5 c 0,-10.296875 -11.79687,-12.09375 -18.79687,-12.09375 -9.20313,0 -19.79688,3.796875 -19.79688,16.796875 l -9.09375,0 C 671.80609,16.5 672.99359,10.5 679.10297,5 c 3.20312,-2.90625 8.39062,-6.90625 21.70312,-6.90625 12.29688,0 28.09375,4.703125 28.09375,21.703125 0,11.40625 -7,17 -16.29687,19.203125 l -20.5,4.703125 c -4.20313,1 -8.5,3 -8.5,9.09375 0,10.90625 10.29687,12.609375 16.39062,12.609375 8.10938,0 17.3125,-3.5 17.8125,-14.609375 z" />
           <use
              x="733.59985"
              xlink:href="#Helvetica-65"
@@ -26445,22 +26298,16 @@
              y="0"
              width="100%"
              height="100%" />
-          <use
-             x="1356.0997"
-             xlink:href="#Helvetica-53"
+          <path
+             style="stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
+             inkscape:connector-curvature="0"
              id="use8004"
+             d="m 1416.0997,50.796875 c -0.4062,7.90625 -2.9062,22.90625 -28,22.90625 -17.4062,0 -24.7031,-11 -24.7031,-22.203125 0,-12.5 10.6094,-15.796875 15.2969,-16.90625 l 14.7031,-3.390625 C 1405.1935,28.40625 1408.6935,26 1408.6935,18.5 c 0,-10.296875 -11.7969,-12.09375 -18.7969,-12.09375 -9.2031,0 -19.7969,3.796875 -19.7969,16.796875 l -9.0937,0 C 1361.006,16.5 1362.1935,10.5 1368.3029,5 c 3.2031,-2.90625 8.3906,-6.90625 21.7031,-6.90625 12.2969,0 28.0937,4.703125 28.0937,21.703125 0,11.40625 -7,17 -16.2968,19.203125 l -20.5,4.703125 c -4.2032,1 -8.5,3 -8.5,9.09375 0,10.90625 10.2968,12.609375 16.3906,12.609375 8.1094,0 17.3125,-3.5 17.8125,-14.609375 z" />
+          <path
              style="stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
-             y="0"
-             width="100%"
-             height="100%" />
-          <use
-             x="1422.7997"
-             xlink:href="#Helvetica-41"
+             inkscape:connector-curvature="0"
              id="use8006"
-             style="stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
-             y="0"
-             width="100%"
-             height="100%" />
+             d="M 1470.5028,20.90625 1477.5966,0 l 10.6093,0 -26,71.796875 -11,0 -27,-71.796875 10,0 7.5,20.90625 z m -25.7969,8.59375 11.5,31.59375 0.1875,0 L 1467.0028,29.5 Z" />
           <use
              x="1489.4998"
              xlink:href="#Helvetica-20"
@@ -26525,14 +26372,11 @@
              y="0"
              width="100%"
              height="100%" />
-          <use
-             x="1822.8997"
-             xlink:href="#Helvetica-41"
-             id="use8024"
+          <path
              style="stroke:#000000;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
-             y="0"
-             width="100%"
-             height="100%" />
+             inkscape:connector-curvature="0"
+             id="use8024"
+             d="M 1870.6028,20.90625 1877.6965,0 l 10.6094,0 -26,71.796875 -11,0 -27,-71.796875 10,0 7.5,20.90625 z m -25.7969,8.59375 11.5,31.59375 0.1875,0 L 1867.1028,29.5 Z" />
           <use
              x="1889.5996"
              xlink:href="#Helvetica-72"
