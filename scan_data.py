@@ -7,6 +7,7 @@ from adjustText import adjust_text
 import matplotlib.pyplot as plt
 import matplotlib
 from datetime import datetime
+import numpy as np
 
 
 def sentence_list(sentence):
@@ -53,31 +54,42 @@ def read_saved_data():
 	titles = []
 	scores = []
 	views = []
-	with open("C:\\Users\\werdn\\Documents\\GitHub\\USA REALLY\\usa-really-analysis\\posts-data.json", "r") as data:
+	with open("C:\\Users\\werdn\\Documents\\GitHub\\USA REALLY\\usa-really-analysis\\usa-wow-full-data--20181102-180155.json", "r") as data:
 		data = data.read()
 		data = json.loads(data)
-		for article in data["posts"]["data"]:
+		for article in data:
 			score = get_rating(article["title"])
 			titles.append(article["title"])
 			scores.append(score)
 			views.append(article["meta"]["post_views"])
-		plot_data(views, scores, titles)
-			# print('{0}\t{1}\t{2}'.format(article["title"], score, article["meta"]["post_views"]))
+		plot_scatterplot(views, scores, titles)
 
 
-# classifier.show_most_informative_features(10)
+def plot_scatterplot(filename):
+	labels = []
+	y = []
+	x = []
+	with open(filename, "r") as data:
+		data = json.loads(data.read())
+		for article in data:
+			score = get_rating(article["title"])
+			labels.append(article["title"])
+			y.append(score)
+			x.append(article["meta"]["post_views"])
 
-def plot_data(x, y, labels):
 	fig, ax = plt.subplots()
 	ax.scatter(x, y)
 
 	# for i, txt in enumerate(labels):
 		# ax.annotate(txt, (x[i], y[i]))
-	texts = [plt.text(x[i], y[i], labels[i], ha='center', va='center') for i in range(len(x))]
+
+	# texts = [plt.text(x[i], y[i], labels[i], ha='center', va='center') for i in range(len(x))]
+	ax.set_xscale('log')
 	# adjust_text(texts)
 	# adjust_text(texts, arrowprops=dict(arrowstyle='->', color='red'))   # super slow
+	plt.title("Pageviews vs. Sentiment on USA Really Articles")
 	plt.xlabel("Pageview Count")
-	plt.ylabel("Article Title Sentiment Score (+/-)")
+	plt.ylabel("Article Title Sentiment Score (logarithmic scale)")
 	plt.show()
 
 
