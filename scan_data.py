@@ -6,7 +6,7 @@ import re
 from adjustText import adjust_text
 import matplotlib.pyplot as plt
 import matplotlib
-from datetime import datetime
+import datetime
 import numpy as np
 
 
@@ -48,27 +48,33 @@ def get_rating(sentence):
 	# print('    ', + score)
 	return score
 
-# https://usareally.com/posts/get?limit=1832&needParam=1
 
-def read_saved_data():
-	titles = []
-	scores = []
-	views = []
-	with open("C:\\Users\\werdn\\Documents\\GitHub\\USA REALLY\\usa-really-analysis\\usa-wow-full-data--20181102-180155.json", "r") as data:
-		data = data.read()
-		data = json.loads(data)
+def sentiment_over_time(filename):
+	y = []
+	x = []
+	with open(filename, "r") as data:
+		data = json.loads(data.read())
 		for article in data:
 			score = get_rating(article["title"])
-			titles.append(article["title"])
-			scores.append(score)
-			views.append(article["meta"]["post_views"])
-		plot_scatterplot(views, scores, titles)
+			y.append(score)
+			x.append(article["published_at"])
+
+	dates = [datetime.datetime.strptime(date, "%Y-%m-%d %H:%M:%S") for date in x]
+	dates = matplotlib.dates.date2num(dates)
+
+	fig, ax = plt.subplots()
+	ax.plot_date(dates, y, alpha=0.)
+	plt.title("Sentiment Over Time on USA Really Articles")
+	plt.ylabel("Article Title Sentiment Score")
+	plt.xlabel("Published Date")
+	plt.show()
 
 
-def plot_scatterplot(filename):
+def sentiment_over_pageviews(filename):
 	labels = []
 	y = []
 	x = []
+	c = []
 	with open(filename, "r") as data:
 		data = json.loads(data.read())
 		for article in data:
@@ -76,22 +82,21 @@ def plot_scatterplot(filename):
 			labels.append(article["title"])
 			y.append(score)
 			x.append(article["meta"]["post_views"])
+			c.append(article["meta"]["word_cnt"])  # color based on word count
 
 	fig, ax = plt.subplots()
-	ax.scatter(x, y)
-
-	# for i, txt in enumerate(labels):
-		# ax.annotate(txt, (x[i], y[i]))
+	ax.set_facecolor((0, 0, 0, .3))
+	ax.scatter(x, y, c=c, cmap='Blues', s=20, alpha=0.2)
+	# ax.scatter(x, y, s=20, facecolors='r', edgecolors='r', alpha=0.2)
 
 	# texts = [plt.text(x[i], y[i], labels[i], ha='center', va='center') for i in range(len(x))]
 	ax.set_xscale('log')
 	# adjust_text(texts)
 	# adjust_text(texts, arrowprops=dict(arrowstyle='->', color='red'))   # super slow
 	plt.title("Pageviews vs. Sentiment on USA Really Articles")
-	plt.xlabel("Pageview Count")
-	plt.ylabel("Article Title Sentiment Score (logarithmic scale)")
+	plt.xlabel("Pageview Count (logarithmic scale)")
+	plt.ylabel("Article Title Sentiment Score")
 	plt.show()
-
 
 
 def plot_date_pageviews(filename):
@@ -108,7 +113,7 @@ def plot_date_pageviews(filename):
 			y.append(article["meta"]["post_views"])
 		fig, ax = plt.subplots()
 
-		dates = [datetime.strptime(date, "%Y-%m-%d %H:%M:%S") for date in x]
+		dates = [datetime.datetime.strptime(date, "%Y-%m-%d %H:%M:%S") for date in x]
 		dates = matplotlib.dates.date2num(dates)
 		ax.plot_date(dates, y)
 		plt.title("USA Really Post Views Over Time")
